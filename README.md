@@ -10,7 +10,7 @@ You’ve built a local project and now want to version-control it and back it up
 
 ## 📍 Steps Overview
 
-### 1. Create a local project on your local machine
+### Create a local project on your local machine
 
 ```bash
 mkdir new-project
@@ -23,7 +23,7 @@ cat test1.txt
 
 # 🚀 Pushing an Existing Project to a Git Remote Repository
 
-### 2. Initialize a Local Git Repository
+### Initialize a Local Git Repository
 
 ```bash
 git init
@@ -33,7 +33,7 @@ This creates a `.git` folder that enables Git tracking.
 
 ![Initialize](Images/initialize.png)
 
-### 3. Stage Your Files and Commit the Changes
+### Stage Your Files and Commit the Changes
 
 ```bash
 git add .
@@ -42,13 +42,13 @@ git commit -m "Initial commit"
 
 ![Stage](Images/gitadd.png)
 
-### 4. Create a Remote Repository
+### Create a Remote Repository
 
 Use GitHub/GitLab UI to create a new **empty** repo (don’t add README or .gitignore yet).
 
 ![Create Repo](Images/createrepo.png)
 
-### 5. Connect Local Repo to Remote
+### Connect Local Repo to Remote
 
 In your Github repo copy the git clone
 
@@ -64,7 +64,7 @@ This sets the destination for pushing code.
 
 ![Git Remote](Images/gitremote.png)
 
-### 6. Push and Set the Upstream Branch
+### Push and Set the Upstream Branch
 
 ```bash
 git push --set-upstream origin master
